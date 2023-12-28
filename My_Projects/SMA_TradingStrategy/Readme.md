@@ -1,5 +1,15 @@
 # SMA Trading Strategy Stock Filter with Backtest
 
+
+## What This program does ?
+
+- Inputs : CSV data in form of stocks that can be downloaded from the NSE website.
+- Calculations : The program will apply the SMA strategy on the stocks and based on that strategy, also run the back test and keep tracks of the wins and looses of that stock as of a result of simulating the trades in the previous 3 Year, The stop loss is kept at 1% and the entry point and exit points are based on SMA50 [Simple Moving Average 50].
+- Outputs: The ouputs are in the form of the two diffeent files. Primary file entryExitpoints.csv is created with the potential entry points and number of wins and losses based on the backtest, and the other file trades.csv is created as a detailed recored of all the simulated trades made by the program.
+
+Example files are given in this repository, Open the files data.csv, it was the input file accepted by the program, and the output files are trades.csv and entryExitpoints.csv respectively.
+
+
 The Simple Moving Average (SMA) trading strategy is a popular technical analysis approach used by traders and investors to identify trends and potential entry or exit points in the financial markets. The SMA is a commonly used indicator that smoothens price data to create a single flowing line, making it easier to identify the direction of the trend. Here's a basic overview of how the SMA trading strategy works:
 
 1. **Calculation of SMA:**
